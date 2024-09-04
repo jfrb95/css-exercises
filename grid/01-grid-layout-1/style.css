@@ -52,8 +52,8 @@ html {
 
 .container {
   display: grid;
-  gap: 10px;
-  grid: 10% 10% 60% 10% / 24% 24% 24% 24%;
+  gap: 15px;
+  grid: 12% 12% 60% 12% / 24% 76%;
 }
 
 .header {
@@ -62,14 +62,6 @@ html {
 
 .sidebar {
   grid-row: 2 / 4;
-}
-
-.nav {
-  grid-column: 2 / -1;
-}
-
-.article {
-  grid-column: 2 / -1;
 }
 
 .footer {
