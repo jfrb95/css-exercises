@@ -49,3 +49,23 @@ html {
   background-color: #393f4d;
   grid-column: 1 / 3;
 }
+
+/*MY SOLUTION*/
+
+.container {
+  display: grid;
+  gap: 15px;
+  grid: 1fr 1fr 5fr 1fr / 1fr 3fr;
+}
+
+.header {
+  grid-column: 1 / -1;
+}
+
+.sidebar {
+  grid-row: 2 / 4;
+}
+
+.footer {
+  grid-column: 1 / -1;
+}
