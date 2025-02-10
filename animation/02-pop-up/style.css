@@ -56,8 +56,22 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+
+  
 }
 
 .backdrop.show {
   opacity: 30%;
+}
+
+.popup-modal {
+   /*i added these*/
+  
+  transition: transform 300ms ease-in-out, opacity 300ms ease;
+  transform: translate(-50%, -100%);
+}
+
+.popup-modal.show {
+  /*i added these*/
+  transform: translate(-50%, -50%);
 }

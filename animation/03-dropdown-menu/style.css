@@ -30,3 +30,26 @@ ul.dropdown-menu li:hover {
 }
 
 
+/*solution below*/
+
+@keyframes bounce-down {
+  from {
+    transform: scaleY(0);
+  }
+
+  75% {
+    transform: scaleY(1.1);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
+}
+
+.dropdown-menu {
+  animation-name: bounce-down;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  transform-origin: top;
+}
